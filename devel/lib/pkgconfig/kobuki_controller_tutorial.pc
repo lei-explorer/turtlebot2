@@ -1,0 +1,8 @@
+prefix=/home/lzw/turtlebot2/devel
+
+Name: kobuki_controller_tutorial
+Description: Description of kobuki_controller_tutorial
+Version: 0.7.6
+Cflags: -I/home/lzw/turtlebot2/src/kobuki/kobuki_controller_tutorial/include
+Libs: -L${prefix}/lib -lbump_blink_controller_nodelet
+Requires: roscpp nodelet pluginlib std_msgs kobuki_msgs yocs_controllers

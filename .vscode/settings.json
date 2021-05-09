@@ -1,0 +1,8 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/src",
+    "python.autoComplete.extraPaths": [
+        "/home/lzw/turtlebot2/devel/lib/python2.7/dist-packages",
+        "/home/lzw/ros_for_beginners/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ]
+}

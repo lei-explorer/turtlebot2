@@ -1,0 +1,11 @@
+bool block
+uint32 bumperside
+float32 yaw
+float32 yposition
+int32 wall
+int32 nan
+---
+bool takingphoto
+bool clean
+bool findingdoor
+string info

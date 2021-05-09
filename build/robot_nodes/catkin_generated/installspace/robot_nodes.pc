@@ -1,0 +1,8 @@
+prefix=/home/lzw/turtlebot2/install
+
+Name: robot_nodes
+Description: Description of robot_nodes
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs message_runtime rospy

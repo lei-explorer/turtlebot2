@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/turtlebot_description_test_urdf.dir/test/test_urdf.cpp.o  -o /home/lzw/turtlebot2/devel/lib/turtlebot_description/turtlebot_description_test_urdf  -L/home/lzw/turtlebot2/build/gtest -rdynamic ../../gtest/gtest/libgtest.so -lpthread -Wl,-rpath,/home/lzw/turtlebot2/build/gtest:/home/lzw/turtlebot2/build/gtest/gtest 

@@ -1,0 +1,11 @@
+<launch>
+
+    <include file = "$(find turtlebot_gazebo)/launch/turtlebot_world.launch" />
+    
+    <!-- <node name = "movement" pkg="robot_nodes" type="movement_pub" output="screen" />
+    <node name = "detect_environment" pkg="robot_nodes" type="detect_environment_sub" output="screen" /> -->
+
+    <node name = "movement" pkg="robot_nodes" type="py_movement.py" output="screen" />
+    <node name = "detect_environment" pkg="robot_nodes" type="py_detect_environment.py" output="screen" />
+
+</launch>
